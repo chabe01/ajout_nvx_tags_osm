@@ -6,11 +6,12 @@ Le fichier `csv` doit respecter une syntaxe bien définie :
 * les autres lignes commencent par l'`id` osm (`[node]|[way]|[relation]/value`) suivi des valeurs des tags associés à ceux défnis dans le header ;
 * les éléments sont séparés par un élément séparateur d'un seul caractère, `,` est la valeur par défaut.
 
-Exemple :
-`id,name,wikidata`<br/>
-`relation/11827653,Rue de Rivoli,Q141747`<br/>
-`node/17807753,Paris,Q90`<br/>
-`way/643131004,Avenue des Champs-Élysées,`
+Exemple :<br/>
+```id,name,wikidata
+relation/11827653,Rue de Rivoli,Q141747
+node/17807753,Paris,Q90
+way/643131004,Avenue des Champs-Élysées,Q550
+```
 
 Pour lancer le programme, deux fichiers sont nécessaires :
 * le fichier `csv` précédemment présenté ;
